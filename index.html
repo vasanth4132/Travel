@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.jpeg">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Travel.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="#" class="logo">T<span>R</span>avel</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn"></div>
+                    <a href="#home">Home</a>
+                    <a href="#book">Book</a>
+                    <a href="#package">Destination</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#Feedback">Feedback</a>
+                    <a href="#footer">Contact</a>
+                </div>
+            </div>
+            <div class="button-group">
+                <a href=" https://sutharsan879.github.io/Login_travel/" class="register">Login / Register</a>
+            </div>
+            <div class="nav-menu-btn"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Travel with us</h1>
+            <p>Travel Far Enough you meet your self</p>
+            <p>Live life with no excuses, travel with no regret</p>
+            <button class="btn"><a href="#book">Explore</a></button>
+        </div>
+        <div class="image">
+           <img src="./plan-removebg-preview (1).jpg" alt="">
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <div class="book-form">
+            <h2>Book Your Trip</h2>
+            <div class="form">
+                <div class="list">
+                    <label for="">Travel Days : </label>
+                    <input type="text" list="mylist" placeholder="Select option" id="date" required>
+                <datalist id="mylist">
+                    <option>1 Day</option>
+                    <option>2 Days</option>
+                    <option>3 Days</option>
+                </datalist>
+                </div>
+                <div class="date">
+                    <label for="">Destination : </label>
+                    <input type="text" class="dates" list="newlist" placeholder="Destination" id="new" required>
+                <datalist id="newlist">
+                    <option value="Ooty">Ooty</option>
+                    <option value="Yercaud">Yercaud</option>
+                    <option value="Kodaikanal">Kodaikanal</option>
+                    <option value="Kanyakumari">Kanyakumari</option>
+                    <option value="Mahabalipuram">Mahabalipuram</option>
+                </datalist>
+                </div>
+                <div class="date">
+                    <label for="">Travel Style : </label>
+                    <input type="text" class="dates" list="travel" placeholder="Travel Style"  required>
+                    <datalist id="travel">
+                        <option value="Adventure">Adventure</option>
+                        <option value="Cultural">Cultural</option>
+                        <option value="Luxury">Luxury</option>
+                        <option value="Budget">Budget</option>
+                        <option value="Solo Travel">Solo Travel</option>
+                        <option value="Family & Friends">Family & Friends</option>
+                    </datalist>
+                </div>
+                <button class="btn" id="bookButton">Book</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="package">
+        <div class="title">
+            <h1> Favourite Destination</h1>
+        </div>
+        <div class="photos"> 
+            <div class="container">
+                <div class="box-items">
+                    <img src="ooty-pic.jpg" alt="">
+                    <h1>Ooty</h1>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="btn">
+                        <button id="submit">
+                            <a href="Explore-Ooty/Explore1.html" id="">Explore</a>
+                        </button>
+                    </div>
+                    <div class="overlay">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box-items">
+                    <img src="Kanyakumari.jpeg" alt="">
+                    <h1>Kanyakumari</h1>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <a href="#">Explore</a>
+                        </button>
+                    </div>
+                    <div class="overlay">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box-items">
+                    <img src="Kodaikanal.avif" alt="">
+                    <h1>Kodikanal</h1>
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <div class="btn">
+                        <button>
+                            <a href="#">Explore</a>
+                        </button>
+                    </div>
+                    <div class="overlay">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="photos-gallery" id="gallery">
+        <div class="title">
+            <h1>Gallery</h1>
+        </div>
+        <div class="wrapper">
+            <input id="btnBox" type="checkbox">
+            <ul>
+                <li style="background-image: url(Ooty1.jpeg)"></li>
+                <li style="background-image: url(Ooty2.jpeg)"></li>
+                <li style="background-image: url(Ooty3.jpeg)"></li>
+                <li style="background-image: url(Ooty4.jpeg)"></li>
+                <li style="background-image: url(Ooty5.jpeg)"></li>
+                <li style="background-image: url(Ooty6.jpeg)"></li>
+                <li style="background-image: url(Ooty7.jpeg)"></li>
+                <li style="background-image: url(Ooty8.jpeg)"></li>
+                <li style="background-image: url(Ooty9.jpeg)"></li>
+                <li style="background-image: url(Kanyakumari.jpeg)"></li>
+                <li style="background-image: url(Kodaikanal.avif)"></li>
+                <li style="background-image: url(1.jpg)"></li>
+                <li style="background-image: url(Yercaud1.jpeg)"></li>
+                <li style="background-image: url(mahabalipuram.jpeg)"></li>
+                <li style="background-image: url(image3.jpg)"></li>
+                <li style="background-image: url(Yercaud6.jpeg)"></li>
+                <li style="background-image: url(Place3.jpeg)"></li>
+                <li style="background-image: url(Place2.jpeg)"></li>
+            </ul>
+            <label class="btn-area" for="btnBox"><span class="btn1">LOAD MORE</span> <span class="btn2">LOAD LESS</span></label>
+        </div>
+    </section>
+
+    <section class="feedback" id="Feedback">
+        <h1>Feedback</h1>
+        <div class="sys">
+        <div class="wrapper">
+            <h3>Feedback About The Above Content</h3>
+            <div>
+                <div class="rating">
+                    <input type="number" name="rating" hidden>
+                    <i class='bx bx-star star' style="--i:0;"></i>
+                    <i class='bx bx-star star' style="--i:1;"></i>
+                    <i class='bx bx-star star' style="--i:2;"></i>
+                    <i class='bx bx-star star' style="--i:3;"></i>
+                    <i class='bx bx-star star' style="--i:4;"></i>
+                </div>
+                <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+                <div class="btn-group">
+                    <button class="btn submit" onclick="openPopup()">Submit</button>
+                    <div class="popup3" id="popup3">
+                        <i class='bx bx-check'></i>
+                        <!-- <h2>For You Wonderful Feedback</h2> -->
+                        <h2> Thank You!..</h2>
+                        <button class="ok-btn" onclick="closepopup()">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="footer" id="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-instagram-alt'></i></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></i></a>
+            <a href="#"><i class='bx bxl-whatsapp-square' ></i></i></a>
+        </div>
+        <div>
+            <p>@ All Rights Received by <span>Traveller</span></p>
+        </div>
+    </div>
+
+</body>
+</html>
